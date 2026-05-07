@@ -59,7 +59,8 @@
             "IsEncrypted": false,
             "EncryptionKey": "",
             "EventType": "Attribute",
-            "SystemAtribute": false
+            "SystemAtribute": false,
+            "Id": "a31db16c-c555-4e8e-add9-a007383e2187"
         },
         {
             "Name": "parentAttrObj",
@@ -101,7 +102,8 @@
             "IsEncrypted": false,
             "EncryptionKey": "",
             "EventType": "Attribute",
-            "SystemAtribute": false
+            "SystemAtribute": false,
+            "Id": "a31db16c-c555-4e8e-add9-a007383e2187"
         }
     ],
     "SystemAttributes": [],

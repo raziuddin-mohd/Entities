@@ -61,7 +61,8 @@
             "EncryptionKey": "",
             "EventType": "Attribute",
             "RowNumber": 0,
-            "SystemAtribute": false
+            "SystemAtribute": false,
+            "Id": "1241c9ac-49f5-4b9c-95f5-e451f6420e48"
         },
         {
             "Name": "childProp",
@@ -105,7 +106,8 @@
             "EncryptionKey": "",
             "EventType": "Attribute",
             "RowNumber": 0,
-            "SystemAtribute": false
+            "SystemAtribute": false,
+            "Id": "1241c9ac-49f5-4b9c-95f5-e451f6420e48"
         }
     ],
     "SystemAttributes": [],

@@ -61,7 +61,8 @@
             "EncryptionKey": "",
             "EventType": "Attribute",
             "RowNumber": 0,
-            "SystemAtribute": false
+            "SystemAtribute": false,
+            "Id": "58616145-e1b2-4aad-ad4b-db47d3172410"
         },
         {
             "Name": "Column1",
@@ -105,7 +106,8 @@
             "EncryptionKey": "",
             "EventType": "Attribute",
             "RowNumber": 0,
-            "SystemAtribute": false
+            "SystemAtribute": false,
+            "Id": "62a21142-3117-4200-b05c-503986ebfe48"
         }
     ],
     "SystemAttributes": [],

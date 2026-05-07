@@ -61,7 +61,8 @@
             "EncryptionKey": "",
             "EventType": "Attribute",
             "RowNumber": 0,
-            "SystemAtribute": false
+            "SystemAtribute": false,
+            "Id": "8bed3a5f-f098-4d91-9d77-d7e88be4cc17"
         },
         {
             "Name": "FirstName",
@@ -105,7 +106,8 @@
             "EncryptionKey": "",
             "EventType": "Attribute",
             "RowNumber": 0,
-            "SystemAtribute": false
+            "SystemAtribute": false,
+            "Id": "8bed3a5f-f098-4d91-9d77-d7e88be4cc17"
         }
     ],
     "SystemAttributes": [],

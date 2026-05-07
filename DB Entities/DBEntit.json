@@ -1,0 +1,1123 @@
+{
+    "Id": "",
+    "CreatedBy": "raziuddin.mohd@valuemomentum.com",
+    "CreatedDate": "2026-05-07T10:40:00.863Z",
+    "ModifiedBy": "raziuddin.mohd@valuemomentum.com",
+    "ModifiedDate": "2026-05-07T10:40:00.863Z",
+    "hash": "e98be26d7d10dda2fdbeba146d5fa1ca626867c3",
+    "Name": "DBEntit",
+    "DisplayName": "",
+    "PluralName": "DBEntits",
+    "Suffix": "",
+    "IsBinary": false,
+    "IsMultipartFormdata": false,
+    "IsActive": true,
+    "Description": "",
+    "Namespace": "",
+    "Interfaces": [],
+    "Interface": "",
+    "CollectionName": "DB Entities",
+    "Type": "Persistent",
+    "Attributes": [
+        {
+            "Name": "Id",
+            "Datatype": "Long",
+            "VectorType": "",
+            "Length": 256,
+            "IsArray": false,
+            "Relationship": "",
+            "ReferenceEntity": "",
+            "ReferenceKey": "",
+            "ReferenceValue": "",
+            "ReferenceValueAsArray": false,
+            "ReferenceAttribute": "",
+            "IsIndexed": false,
+            "IsFullTextIndexed": false,
+            "Dimensions": 1536,
+            "IndexKind": "",
+            "DistanceFunction": "",
+            "IsPrimaryKey": true,
+            "IsUnique": false,
+            "IsMandatory": true,
+            "IsIdentifier": true,
+            "IsNullable": false,
+            "AutoIncrement": 0,
+            "IdentitySeedValue": 1,
+            "IdentityIncrementValue": 1,
+            "DecimalPrecision": 18,
+            "DecimalScale": 2,
+            "CascadeDelete": false,
+            "DateOption": "",
+            "DefaultValue": null,
+            "ExampleOption": "",
+            "Example": null,
+            "Description": "Id",
+            "DisplayName": "",
+            "IsActive": true,
+            "IsSelected": false,
+            "IncludeInSummary": "",
+            "IsMasked": false,
+            "IsEncrypted": false,
+            "EncryptionKey": "",
+            "EventType": "Attribute",
+            "RowNumber": 0,
+            "SystemAtribute": false
+        },
+        {
+            "Name": "Column1",
+            "Datatype": "String",
+            "VectorType": "",
+            "Length": 256,
+            "IsArray": false,
+            "Relationship": "",
+            "ReferenceEntity": "",
+            "ReferenceKey": "",
+            "ReferenceValue": "",
+            "ReferenceValueAsArray": false,
+            "ReferenceAttribute": "",
+            "IsIndexed": false,
+            "IsFullTextIndexed": false,
+            "Dimensions": 1536,
+            "IndexKind": "",
+            "DistanceFunction": "",
+            "IsPrimaryKey": false,
+            "IsUnique": false,
+            "IsMandatory": false,
+            "IsIdentifier": false,
+            "IsNullable": false,
+            "AutoIncrement": 0,
+            "IdentitySeedValue": 1,
+            "IdentityIncrementValue": 0,
+            "DecimalPrecision": 18,
+            "DecimalScale": 2,
+            "CascadeDelete": false,
+            "DateOption": "",
+            "DefaultValue": null,
+            "ExampleOption": "",
+            "Example": "",
+            "Description": "",
+            "DisplayName": "",
+            "IsActive": true,
+            "IsSelected": false,
+            "IncludeInSummary": "",
+            "IsMasked": false,
+            "IsEncrypted": false,
+            "EncryptionKey": "",
+            "EventType": "Attribute",
+            "RowNumber": 0,
+            "SystemAtribute": false
+        }
+    ],
+    "SystemAttributes": [],
+    "Actions": [
+        {
+            "Name": "GetDBEntitById()",
+            "EventType": "Action",
+            "IsSelected": true,
+            "GenerateAs": "http",
+            "IsPaginated": false,
+            "AsyncOperation": true,
+            "Description": "Get DBEntit ById",
+            "Input": [
+                {
+                    "Name": "Id",
+                    "Datatype": "Long",
+                    "EntityName": "",
+                    "IsArray": false,
+                    "IsPaginated": false,
+                    "IsMandatory": false
+                }
+            ],
+            "Output": {
+                "Name": "",
+                "Datatype": "Complex",
+                "EntityName": "DBEntit",
+                "IsArray": false,
+                "IsPaginated": false,
+                "IsMandatory": false
+            },
+            "ApiDefinition": {
+                "Id": "",
+                "CreatedBy": "",
+                "CreatedDate": "2026-05-07T10:40:18.547Z",
+                "ModifiedBy": "",
+                "ModifiedDate": "2026-05-07T10:40:18.547Z",
+                "hash": "",
+                "IsInvalid": false,
+                "Name": "GetDBEntitById",
+                "apiDefinitionId": "GetDBEntitById",
+                "verbtype": "Get",
+                "IsActive": true,
+                "tags": "",
+                "Consumes": [],
+                "Scheme": "",
+                "Produces": [
+                    "application/json"
+                ],
+                "serviceUrl": {
+                    "baseUrlCode": "ApiBaseUrl",
+                    "actionUrl": "dbentits/{Id}"
+                },
+                "PathParams": [
+                    {
+                        "Name": "Id",
+                        "IsArray": false,
+                        "Type": "Long",
+                        "Entity": "",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "queryParameters": [],
+                "requestBody": [],
+                "outputParameters": [
+                    {
+                        "Name": "",
+                        "IsArray": false,
+                        "Type": "Complex",
+                        "Entity": "DBEntit",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "headers": [],
+                "IsModified": false,
+                "description": "",
+                "GenerateAs": "http"
+            },
+            "QueryDetails": [
+                {
+                    "Name": "GetQuery",
+                    "Type": "Select",
+                    "SqlCommand": "SingleRowExecuteReader",
+                    "Query": "SELECT [Id], [Column1] FROM [DBEntit] WITH (NOLOCK) WHERE [Id] = @Id"
+                }
+            ]
+        },
+        {
+            "Name": "UpdateDBEntit()",
+            "EventType": "Action",
+            "IsSelected": true,
+            "GenerateAs": "http",
+            "IsPaginated": false,
+            "AsyncOperation": true,
+            "Description": "Update DBEntit",
+            "Input": [
+                {
+                    "Name": "dbentit",
+                    "Datatype": "Complex",
+                    "EntityName": "DBEntit",
+                    "IsArray": false,
+                    "IsPaginated": false,
+                    "IsMandatory": false
+                }
+            ],
+            "Output": {
+                "Name": "",
+                "Datatype": "Boolean",
+                "EntityName": "",
+                "IsArray": false,
+                "IsPaginated": false,
+                "IsMandatory": false
+            },
+            "ApiDefinition": {
+                "Id": "",
+                "CreatedBy": "",
+                "CreatedDate": "2026-05-07T10:40:18.547Z",
+                "ModifiedBy": "",
+                "ModifiedDate": "2026-05-07T10:40:18.547Z",
+                "hash": "",
+                "IsInvalid": false,
+                "Name": "UpdateDBEntit",
+                "apiDefinitionId": "UpdateDBEntit",
+                "verbtype": "Put",
+                "IsActive": true,
+                "tags": "",
+                "Consumes": [],
+                "Scheme": "",
+                "Produces": [
+                    "application/json"
+                ],
+                "serviceUrl": {
+                    "baseUrlCode": "ApiBaseUrl",
+                    "actionUrl": "dbentits"
+                },
+                "PathParams": [],
+                "queryParameters": [],
+                "requestBody": [
+                    {
+                        "Name": "dbentit",
+                        "IsArray": false,
+                        "Type": "Complex",
+                        "Entity": "DBEntit",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "outputParameters": [
+                    {
+                        "Name": "",
+                        "IsArray": false,
+                        "Type": "Boolean",
+                        "Entity": "",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "headers": [],
+                "IsModified": false,
+                "description": "",
+                "GenerateAs": "http"
+            },
+            "QueryDetails": [
+                {
+                    "Name": "UpdateQuery",
+                    "Type": "Update",
+                    "SqlCommand": "ExecuteNonQueryWithConfirmation",
+                    "Query": "UPDATE [DBEntit] SET [Column1] = @Column1 WHERE [Id] = @Id"
+                }
+            ]
+        },
+        {
+            "Name": "CreateOrUpdateDBEntit()",
+            "EventType": "Action",
+            "IsSelected": true,
+            "GenerateAs": "http",
+            "IsPaginated": false,
+            "AsyncOperation": true,
+            "Description": "Create Or Update DBEntit",
+            "Input": [
+                {
+                    "Name": "dbentit",
+                    "Datatype": "Complex",
+                    "EntityName": "DBEntit",
+                    "IsArray": false,
+                    "IsPaginated": false,
+                    "IsMandatory": false
+                }
+            ],
+            "Output": {
+                "Name": "",
+                "Datatype": "Long",
+                "EntityName": "",
+                "IsArray": false,
+                "IsPaginated": false,
+                "IsMandatory": false
+            },
+            "ApiDefinition": {
+                "Id": "",
+                "CreatedBy": "",
+                "CreatedDate": "2026-05-07T10:40:18.547Z",
+                "ModifiedBy": "",
+                "ModifiedDate": "2026-05-07T10:40:18.547Z",
+                "hash": "",
+                "IsInvalid": false,
+                "Name": "CreateOrUpdateDBEntit",
+                "apiDefinitionId": "CreateOrUpdateDBEntit",
+                "verbtype": "Post",
+                "IsActive": true,
+                "tags": "",
+                "Consumes": [],
+                "Scheme": "",
+                "Produces": [
+                    "application/json"
+                ],
+                "serviceUrl": {
+                    "baseUrlCode": "ApiBaseUrl",
+                    "actionUrl": "dbentits/save"
+                },
+                "PathParams": [],
+                "queryParameters": [],
+                "requestBody": [
+                    {
+                        "Name": "dbentit",
+                        "IsArray": false,
+                        "Type": "Complex",
+                        "Entity": "DBEntit",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "outputParameters": [
+                    {
+                        "Name": "",
+                        "IsArray": false,
+                        "Type": "Long",
+                        "Entity": "",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "headers": [],
+                "IsModified": false,
+                "description": "",
+                "GenerateAs": "http"
+            },
+            "QueryDetails": [
+                {
+                    "Name": "CreateOrUpdateQuery",
+                    "Type": "Update",
+                    "SqlCommand": "ExecuteScalar",
+                    "Query": "MERGE [DBEntit] as Target \nUSING (VALUES(@Id,@Column1)) as Source ([Id], [Column1]) \nON Source.Id = Target.Id \nWHEN NOT MATCHED BY TARGET THEN \nINSERT ([Column1]) VALUES(Source.Column1) \nWHEN MATCHED THEN \nUPDATE SET Target.Column1 = Source.Column1 \nOUTPUT INSERTED.Id; \n"
+                }
+            ]
+        },
+        {
+            "Name": "DeleteDBEntit()",
+            "EventType": "Action",
+            "IsSelected": true,
+            "GenerateAs": "http",
+            "IsPaginated": false,
+            "AsyncOperation": true,
+            "Description": "Delete DBEntit",
+            "Input": [
+                {
+                    "Name": "Id",
+                    "Datatype": "Long",
+                    "EntityName": "",
+                    "IsArray": false,
+                    "IsPaginated": false,
+                    "IsMandatory": false
+                }
+            ],
+            "Output": {
+                "Name": "",
+                "Datatype": "Boolean",
+                "EntityName": "",
+                "IsArray": false,
+                "IsPaginated": false,
+                "IsMandatory": false
+            },
+            "ApiDefinition": {
+                "Id": "",
+                "CreatedBy": "",
+                "CreatedDate": "2026-05-07T10:40:18.547Z",
+                "ModifiedBy": "",
+                "ModifiedDate": "2026-05-07T10:40:18.547Z",
+                "hash": "",
+                "IsInvalid": false,
+                "Name": "DeleteDBEntit",
+                "apiDefinitionId": "DeleteDBEntit",
+                "verbtype": "Delete",
+                "IsActive": true,
+                "tags": "",
+                "Consumes": [],
+                "Scheme": "",
+                "Produces": [
+                    "application/json"
+                ],
+                "serviceUrl": {
+                    "baseUrlCode": "ApiBaseUrl",
+                    "actionUrl": "dbentits/{Id}"
+                },
+                "PathParams": [
+                    {
+                        "Name": "Id",
+                        "IsArray": false,
+                        "Type": "Long",
+                        "Entity": "",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "queryParameters": [],
+                "requestBody": [],
+                "outputParameters": [
+                    {
+                        "Name": "",
+                        "IsArray": false,
+                        "Type": "Boolean",
+                        "Entity": "",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "headers": [],
+                "IsModified": false,
+                "description": "",
+                "GenerateAs": "http"
+            },
+            "QueryDetails": [
+                {
+                    "Name": "DeleteQuery",
+                    "Type": "Delete",
+                    "SqlCommand": "ExecuteNonQueryWithConfirmation",
+                    "Query": "DELETE FROM [DBEntit] WHERE [Id] = @Id"
+                }
+            ]
+        },
+        {
+            "Name": "BulkUpdateDBEntits()",
+            "EventType": "Action",
+            "IsSelected": false,
+            "GenerateAs": "",
+            "IsPaginated": false,
+            "AsyncOperation": true,
+            "Description": "Bulk Update DBEntit",
+            "Input": [
+                {
+                    "Name": "dbentit",
+                    "Datatype": "Complex",
+                    "EntityName": "DBEntit",
+                    "IsArray": true,
+                    "IsPaginated": false,
+                    "IsMandatory": false
+                }
+            ],
+            "Output": {
+                "Name": "",
+                "Datatype": "Boolean",
+                "EntityName": "",
+                "IsArray": false,
+                "IsPaginated": false,
+                "IsMandatory": false
+            },
+            "ApiDefinition": {
+                "Id": "",
+                "CreatedBy": "",
+                "CreatedDate": "2026-05-07T10:40:18.547Z",
+                "ModifiedBy": "",
+                "ModifiedDate": "2026-05-07T10:40:18.547Z",
+                "hash": "",
+                "IsInvalid": false,
+                "Name": "BulkUpdateDBEntits",
+                "apiDefinitionId": "BulkUpdateDBEntits",
+                "verbtype": "Put",
+                "IsActive": true,
+                "tags": "",
+                "Consumes": [],
+                "Scheme": "",
+                "Produces": [
+                    "application/json"
+                ],
+                "serviceUrl": {
+                    "baseUrlCode": "ApiBaseUrl",
+                    "actionUrl": "dbentits/bulk"
+                },
+                "PathParams": [],
+                "queryParameters": [],
+                "requestBody": [
+                    {
+                        "Name": "dbentit",
+                        "IsArray": true,
+                        "Type": "Complex",
+                        "Entity": "DBEntit",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "outputParameters": [
+                    {
+                        "Name": "",
+                        "IsArray": false,
+                        "Type": "Boolean",
+                        "Entity": "",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "headers": [],
+                "IsModified": false,
+                "description": "",
+                "GenerateAs": "http"
+            },
+            "QueryDetails": [
+                {
+                    "Name": "",
+                    "Type": "Update",
+                    "SqlCommand": "BulkUpdate",
+                    "Query": ""
+                }
+            ]
+        },
+        {
+            "Name": "BulkCreateOrUpdateDBEntits()",
+            "EventType": "Action",
+            "IsSelected": false,
+            "GenerateAs": "",
+            "IsPaginated": false,
+            "AsyncOperation": true,
+            "Description": "Bulk Create Or Update DBEntit",
+            "Input": [
+                {
+                    "Name": "dbentit",
+                    "Datatype": "Complex",
+                    "EntityName": "DBEntit",
+                    "IsArray": true,
+                    "IsPaginated": false,
+                    "IsMandatory": false
+                }
+            ],
+            "Output": {
+                "Name": "",
+                "Datatype": "Boolean",
+                "EntityName": "",
+                "IsArray": false,
+                "IsPaginated": false,
+                "IsMandatory": false
+            },
+            "ApiDefinition": {
+                "Id": "",
+                "CreatedBy": "",
+                "CreatedDate": "2026-05-07T10:40:18.547Z",
+                "ModifiedBy": "",
+                "ModifiedDate": "2026-05-07T10:40:18.547Z",
+                "hash": "",
+                "IsInvalid": false,
+                "Name": "BulkCreateOrUpdateDBEntits",
+                "apiDefinitionId": "BulkCreateOrUpdateDBEntits",
+                "verbtype": "Post",
+                "IsActive": true,
+                "tags": "",
+                "Consumes": [],
+                "Scheme": "",
+                "Produces": [
+                    "application/json"
+                ],
+                "serviceUrl": {
+                    "baseUrlCode": "ApiBaseUrl",
+                    "actionUrl": "dbentits/bulk/save"
+                },
+                "PathParams": [],
+                "queryParameters": [],
+                "requestBody": [
+                    {
+                        "Name": "dbentit",
+                        "IsArray": true,
+                        "Type": "Complex",
+                        "Entity": "DBEntit",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "outputParameters": [
+                    {
+                        "Name": "",
+                        "IsArray": false,
+                        "Type": "Boolean",
+                        "Entity": "",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "headers": [],
+                "IsModified": false,
+                "description": "",
+                "GenerateAs": "http"
+            },
+            "QueryDetails": [
+                {
+                    "Name": "",
+                    "Type": "Update",
+                    "SqlCommand": "BulkSave",
+                    "Query": ""
+                }
+            ]
+        },
+        {
+            "Name": "GetDBEntits()",
+            "EventType": "Action",
+            "IsSelected": true,
+            "GenerateAs": "http",
+            "IsPaginated": false,
+            "AsyncOperation": true,
+            "Description": "Get DBEntits",
+            "Input": [
+                {
+                    "Name": "sortBy",
+                    "Datatype": "String",
+                    "EntityName": "",
+                    "IsArray": false,
+                    "IsPaginated": false,
+                    "IsMandatory": false
+                },
+                {
+                    "Name": "sortOrder",
+                    "Datatype": "String",
+                    "EntityName": "",
+                    "IsArray": false,
+                    "IsPaginated": false,
+                    "IsMandatory": false
+                }
+            ],
+            "Output": {
+                "Name": "",
+                "Datatype": "Complex",
+                "EntityName": "DBEntit",
+                "IsArray": true,
+                "IsPaginated": false,
+                "IsMandatory": false
+            },
+            "ApiDefinition": {
+                "Id": "",
+                "CreatedBy": "",
+                "CreatedDate": "2026-05-07T10:40:18.547Z",
+                "ModifiedBy": "",
+                "ModifiedDate": "2026-05-07T10:40:18.547Z",
+                "hash": "",
+                "IsInvalid": false,
+                "Name": "GetDBEntits",
+                "apiDefinitionId": "GetDBEntits",
+                "verbtype": "Get",
+                "IsActive": true,
+                "tags": "",
+                "Consumes": [],
+                "Scheme": "",
+                "Produces": [
+                    "application/json"
+                ],
+                "serviceUrl": {
+                    "baseUrlCode": "ApiBaseUrl",
+                    "actionUrl": "dbentits"
+                },
+                "PathParams": [],
+                "queryParameters": [
+                    {
+                        "Name": "sortBy",
+                        "IsArray": false,
+                        "Type": "String",
+                        "Entity": "",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    },
+                    {
+                        "Name": "sortOrder",
+                        "IsArray": false,
+                        "Type": "String",
+                        "Entity": "",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "requestBody": [],
+                "outputParameters": [
+                    {
+                        "Name": "",
+                        "IsArray": true,
+                        "Type": "Complex",
+                        "Entity": "DBEntit",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "headers": [],
+                "IsModified": false,
+                "description": "",
+                "GenerateAs": "http"
+            },
+            "QueryDetails": [
+                {
+                    "Name": "GetAllQuery",
+                    "Type": "Select",
+                    "SqlCommand": "MultiRowExecuteReader",
+                    "Query": "SELECT TOP 1000 [Id], [Column1] FROM [DBEntit] WITH (NOLOCK)"
+                }
+            ]
+        },
+        {
+            "Name": "CreateDBEntit()",
+            "EventType": "Action",
+            "IsSelected": true,
+            "GenerateAs": "http",
+            "IsPaginated": false,
+            "AsyncOperation": true,
+            "Description": "Create DBEntit",
+            "Input": [
+                {
+                    "Name": "dbentit",
+                    "Datatype": "Complex",
+                    "EntityName": "DBEntit",
+                    "IsArray": false,
+                    "IsPaginated": false,
+                    "IsMandatory": false
+                }
+            ],
+            "Output": {
+                "Name": "",
+                "Datatype": "Long",
+                "EntityName": "",
+                "IsArray": false,
+                "IsPaginated": false,
+                "IsMandatory": false
+            },
+            "ApiDefinition": {
+                "Id": "",
+                "CreatedBy": "",
+                "CreatedDate": "2026-05-07T10:40:18.548Z",
+                "ModifiedBy": "",
+                "ModifiedDate": "2026-05-07T10:40:18.548Z",
+                "hash": "",
+                "IsInvalid": false,
+                "Name": "CreateDBEntit",
+                "apiDefinitionId": "CreateDBEntit",
+                "verbtype": "Post",
+                "IsActive": true,
+                "tags": "",
+                "Consumes": [],
+                "Scheme": "",
+                "Produces": [
+                    "application/json"
+                ],
+                "serviceUrl": {
+                    "baseUrlCode": "ApiBaseUrl",
+                    "actionUrl": "dbentits"
+                },
+                "PathParams": [],
+                "queryParameters": [],
+                "requestBody": [
+                    {
+                        "Name": "dbentit",
+                        "IsArray": false,
+                        "Type": "Complex",
+                        "Entity": "DBEntit",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "outputParameters": [
+                    {
+                        "Name": "",
+                        "IsArray": false,
+                        "Type": "Long",
+                        "Entity": "",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "headers": [],
+                "IsModified": false,
+                "description": "",
+                "GenerateAs": "http"
+            },
+            "QueryDetails": [
+                {
+                    "Name": "CreateQuery",
+                    "Type": "Insert",
+                    "SqlCommand": "ExecuteScalar",
+                    "Query": "INSERT INTO [DBEntit]([Column1]) Output Inserted.Id SELECT @Column1"
+                }
+            ]
+        },
+        {
+            "Name": "BulkCreateDBEntits()",
+            "EventType": "Action",
+            "IsSelected": false,
+            "GenerateAs": "",
+            "IsPaginated": false,
+            "AsyncOperation": true,
+            "Description": "Bulk Create DBEntit",
+            "Input": [
+                {
+                    "Name": "dbentit",
+                    "Datatype": "Complex",
+                    "EntityName": "DBEntit",
+                    "IsArray": true,
+                    "IsPaginated": false,
+                    "IsMandatory": false
+                }
+            ],
+            "Output": {
+                "Name": "",
+                "Datatype": "Boolean",
+                "EntityName": "",
+                "IsArray": false,
+                "IsPaginated": false,
+                "IsMandatory": false
+            },
+            "ApiDefinition": {
+                "Id": "",
+                "CreatedBy": "",
+                "CreatedDate": "2026-05-07T10:40:18.548Z",
+                "ModifiedBy": "",
+                "ModifiedDate": "2026-05-07T10:40:18.548Z",
+                "hash": "",
+                "IsInvalid": false,
+                "Name": "BulkCreateDBEntits",
+                "apiDefinitionId": "BulkCreateDBEntits",
+                "verbtype": "Post",
+                "IsActive": true,
+                "tags": "",
+                "Consumes": [],
+                "Scheme": "",
+                "Produces": [
+                    "application/json"
+                ],
+                "serviceUrl": {
+                    "baseUrlCode": "ApiBaseUrl",
+                    "actionUrl": "dbentits/bulk"
+                },
+                "PathParams": [],
+                "queryParameters": [],
+                "requestBody": [
+                    {
+                        "Name": "dbentit",
+                        "IsArray": true,
+                        "Type": "Complex",
+                        "Entity": "DBEntit",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "outputParameters": [
+                    {
+                        "Name": "",
+                        "IsArray": false,
+                        "Type": "Boolean",
+                        "Entity": "",
+                        "KeyType": "",
+                        "ValueType": "",
+                        "IsValueArrayType": false,
+                        "IsMandatory": false,
+                        "IsGeneric": false,
+                        "DateOption": "",
+                        "Format": "",
+                        "Value": "",
+                        "IsNewObject": false,
+                        "EntityType": "",
+                        "IsNullable": false,
+                        "Description": "",
+                        "id": "",
+                        "ParameterType": ""
+                    }
+                ],
+                "headers": [],
+                "IsModified": false,
+                "description": "",
+                "GenerateAs": "http"
+            },
+            "QueryDetails": [
+                {
+                    "Name": "",
+                    "Type": "Insert",
+                    "SqlCommand": "BulkInsert",
+                    "Query": ""
+                }
+            ]
+        }
+    ],
+    "Indexes": [],
+    "Audits": [],
+    "EventType": "Entity",
+    "IsModified": true,
+    "AliasName": "",
+    "EqualityAttributes": [],
+    "IsEntityExist": false,
+    "IsEntityExistInTargetFolder": false,
+    "ShowMore": false
+}
